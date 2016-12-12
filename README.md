@@ -27,3 +27,7 @@ docker push registry.heroku.com/name-of-your-application/web
 ```
 
 Your first push will take some time, but subsequent pushes will only update the latest layer.
+
+## More help
+
+More information about this project has been [posted on my blog](https://jyunderwood.com/2016/12/hosting-asp-net-core-applications-heroku-docker/)
