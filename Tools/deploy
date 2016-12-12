@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+dotnet publish
+docker build bin/Debug/netcoreapp1.1/publish -t heroichaiku
+
+docker login --username=_ --password=$(heroku auth:token) registry.heroku.com
+docker tag heroichaiku registry.heroku.com/heroichaiku/web
+docker push registry.heroku.com/heroichaiku/web
