@@ -1,8 +1,8 @@
-# ASP.NET Core MVC on Heroku
+# ASP.NET Core MVC on Heroku with Docker
 
 A barebones demo showing that an ASP.NET Core MVC app can run easily on Heroku via Docker.
 
-Developed on a Mac with the .NET Core SDK v1.1. Please note, there is no IIS integration so this might not actually run in Visual Studio on Windows. Funny, isn't it?
+Developed on a Mac with the .NET Core SDK v1.1.
 
 ## Requirements
 
@@ -30,4 +30,4 @@ Your first push will take some time, but subsequent pushes will only update the 
 
 ## More help
 
-More information about this project has been [posted on my blog](https://jyunderwood.com/2016/12/hosting-asp-net-core-applications-heroku-docker/)
+More information about this project has been [posted on my blog](https://foobars.com/2016/12/hosting-asp-net-core-applications-heroku-docker/)

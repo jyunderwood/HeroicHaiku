@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/project.json"
+                "${workspaceRoot}/HeroicHaiku.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
